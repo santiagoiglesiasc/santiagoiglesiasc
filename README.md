@@ -1,4 +1,4 @@
-# Academic website — Agustina Martínez
+# Santiago Iglesias Cuenca
 
 Static site (HTML/CSS/JS, no build step), designed for GitHub Pages.
 
