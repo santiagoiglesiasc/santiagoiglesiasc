@@ -366,9 +366,11 @@ body {
 
 .contact-content {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
-}
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 6rem;
+  row-gap: 2rem;
+  max-width: 100%;
+  }
 
 .contact-block a {
   color: var(--color-accent);
@@ -455,11 +457,7 @@ body {
   }
 
   .contact-content {
-  display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
-  column-gap: 4rem;
-  row-gap: 2rem;
-  max-width: 100%;
+  grid-template-columns: 1fr;
   }
 
   .nav-toggle {
