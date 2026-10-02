@@ -455,7 +455,11 @@ body {
   }
 
   .contact-content {
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 4rem;
+  row-gap: 2rem;
+  max-width: 100%;
   }
 
   .nav-toggle {
